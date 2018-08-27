@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background: black;
+    color: white;
+}
+
+.counter-box {
+    flex :  0 0 70%;
+    text-align: center;
+    border: 3px solid white;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.btn {
+    background: #ffffff;
+    border-radius: 8px;
+    font-size:2rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem;
+    outline:none;   
+}
+
+.btn:hover {
+    background-color: #cce2;
+}
